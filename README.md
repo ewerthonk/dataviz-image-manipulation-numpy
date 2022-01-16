@@ -1,7 +1,7 @@
 # Manipulação de Imagem com NumPy
 
-#### Desafio da Aula 03 | Módulo 04 | Data Science Degree - Let's Code
-#### Repositório: desafio-imagem-numpy
+Desafio da Aula 03 | Módulo 04 | Data Science Degree - Let's Code
+**Repositório: desafio-imagem-numpy**
 
 ## 👨‍💻 Autor
 Ewerthon José Kutz.
@@ -26,6 +26,7 @@ O desafio é abrir um arquivo de imagem de um cachorro Shiba inu (sim, o do Doge
 
 ### 🌇 A imagem
 ![shiba_inu.jpg](imgs/shiba_inu.jpg)
+<img src="imgs/shiba_inu.jpg" width="50">
 
 #### 🔍 Curiosidade
 

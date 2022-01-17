@@ -40,8 +40,6 @@ A criptomoeda e alguns tweets do Elon Musk fizeram a raça ser facilmente reconh
 ### 🌇 Tweets
 <img src="imgs/tweet1.jpg" width="300">
 
----
-
 <img src="imgs/tweet2.jpg" width="300">
 
 ## 🗺 Contexto

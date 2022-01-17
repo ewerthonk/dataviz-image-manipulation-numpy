@@ -1,6 +1,7 @@
 # Manipulação de Imagem com NumPy
 
 Desafio da Aula 03 | Módulo 04 | Data Science Degree - Let's Code
+
 **Repositório: desafio-imagem-numpy**
 
 ## 👨‍💻 Autor
@@ -25,8 +26,7 @@ O desafio é abrir um arquivo de imagem de um cachorro Shiba inu (sim, o do Doge
 4. Transformar a imagem para escala de cinza.
 
 ### 🌇 A imagem
-![shiba_inu.jpg](imgs/shiba_inu.jpg)
-<img src="imgs/shiba_inu.jpg" width="50">
+<img src="imgs/shiba_inu.jpg" width="300">
 
 #### 🔍 Curiosidade
 
@@ -35,20 +35,20 @@ A raça de cachorros Shiba inu é de origem japonesa (e uma das mais antigas por
 A criptomoeda e alguns tweets do Elon Musk fizeram a raça ser facilmente reconhecida em qualquer lugar do mundo.
 
 ### 🌇 Dogecoin
-![dogecoin.jpg](imgs/dogecoin.png)
+<img src="imgs/dogecoin.png" width="300">
 
 ### 🌇 Tweets
-![tweet1.jpg](imgs/tweet1.jpg)
+<img src="imgs/tweet1.jpg" width="300">
 
 ---
 
-![tweet2.jpg](imgs/tweet2.jpg)
+<img src="imgs/tweet2.jpg" width="300">
 
 ## 🗺 Contexto
 
 Toda imagem colorida, do ponto de vista computacional, nada mais é do que um conjunto de três matrizes: Vermelho, Verde e Azul (RGB vem de Red, Green e Blue). Cada uma dessas matrizez traz a intensidade da respectiva cor para cada um dos pixels.
 
-![rgb.png](imgs/rgb.jpg)
+<img src="imgs/rgb.jpg" width="300">
 
 Nessas matrizes,os valores vão de 0 a 255. 0 representa a ausência dessa cor e 255 a intensidade mais forte possível dela. Se tivermos um píxel puramente vermelho ele será representado pelos seguintes valores em cada matriz:
 

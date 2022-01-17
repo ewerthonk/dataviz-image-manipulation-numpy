@@ -46,7 +46,7 @@ A criptomoeda e alguns tweets do Elon Musk fizeram a raça ser facilmente reconh
 
 Toda imagem colorida, do ponto de vista computacional, nada mais é do que um conjunto de três matrizes: Vermelho, Verde e Azul (RGB vem de Red, Green e Blue). Cada uma dessas matrizez traz a intensidade da respectiva cor para cada um dos pixels.
 
-<img src="imgs/rgb.jpg" width="300">
+<img src="imgs/rgb_matrix.jpg" width="300">
 
 Nessas matrizes,os valores vão de 0 a 255. 0 representa a ausência dessa cor e 255 a intensidade mais forte possível dela. Se tivermos um píxel puramente vermelho ele será representado pelos seguintes valores em cada matriz:
 

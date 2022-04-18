@@ -13,7 +13,7 @@ The challenge of the exercise is to open the image and:
 3. Cut the dog's nose.
 4. Transform the image to grayscale.
 
-**Access the notebook [HERE](https://nbviewer.org/github/ewerthonk/dataviz-olympics/blob/main/dataviz-olympics.ipynb) to see all the visualizations.**
+**Access the notebook [HERE](https://github.com/ewerthonk/dataviz-image-manipulation-numpy/blob/main/image-manipulation-numpy.ipynb).**
 
 ## 💡 Concepts
 - Arrays and Multidimentional matrices.
@@ -24,7 +24,7 @@ The challenge of the exercise is to open the image and:
 Complexity: **Beginner.**
 
 ### 🌇 The Image
-<img src="imgs/shiba_inu.jpg" width="300">
+<img src="images/shiba_inu.jpg" width="300">
 
 #### 🔍 Curiosities
 
@@ -33,9 +33,9 @@ The Shiba Inu dog is one of the most ancient dog races from Japanese origin. The
 The criptocoin and some Elon Musk tweets made the race become popular worldwide.
 
 ### 🌇 Dogecoin
-<img src="imgs/dogecoin.png" width="300">
+<img src="images/dogecoin.png" width="300">
 
 ### 🌇 Tweets
-<img src="imgs/tweet1.jpg" width="300">
+<img src="images/tweet1.jpg" width="300">
 
-<img src="imgs/tweet2.jpg" width="300">
+<img src="images/tweet2.jpg" width="300">

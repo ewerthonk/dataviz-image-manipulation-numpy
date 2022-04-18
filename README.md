@@ -1,38 +1,36 @@
-# Manipulação de Imagem com NumPy
+# Data Visualization - Image Manipulation
 
-Desafio da Aula 03 | Módulo 04 | Data Science Degree - Let's Code
+<div align="center"><img src="https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white">
+</div>
 
-**Repositório: desafio-imagem-numpy**
+## 👨🏻‍🏫 Description
+An exercise to better understand the concept of matrices and how an image is represented and stored using a Shiba Inu dog (Yes, that one from Dogecoi) image and NumPy.
 
-## 👨‍💻 Autor
-Ewerthon José Kutz.
+The challenge of the exercise is to open the image and:
 
-## 💡 Conceitos utilizados
-- Arrays e Matrizes multidimensionais.
-- Representação computacional de imagens.
-- Representação computacional de cores (RGB).
-- Manipulação de imagens com a biblioteca Numpy.
-- Manipulação de imagens com a biblioteca scikit-image.
-- Visualização deimagens com a biblioteca Matplotlib.
+1. Trim the image vertically.
+2. Trim the image horizontally.
+3. Cut the dog's nose.
+4. Transform the image to grayscale.
 
-Complexidade: Iniciante.
+**Access the notebook [HERE](https://nbviewer.org/github/ewerthonk/dataviz-olympics/blob/main/dataviz-olympics.ipynb) to see all the visualizations.**
 
-## 👨🏻‍🏫 Descrição
-O desafio é abrir um arquivo de imagem de um cachorro Shiba inu (sim, o do Dogecoin) e efetuar **quatro** operações nessa imagem:
+## 💡 Concepts
+- Arrays and Multidimentional matrices.
+- Image manipulation using NumPy.
+- Image manipulation using scikit-image.
+- Image visualization using Matplotlib.
 
-1. Cortar a imagem no sentido vertical.
-2. Cortar a imagem no sentido horizontal.
-3. Apagar o nariz do cachorro (tecnicamente, transformar os pixels no nariz em pixels de cor branca).
-4. Transformar a imagem para escala de cinza.
+Complexity: **Beginner.**
 
-### 🌇 A imagem
+### 🌇 The Image
 <img src="imgs/shiba_inu.jpg" width="300">
 
-#### 🔍 Curiosidade
+#### 🔍 Curiosities
 
-A raça de cachorros Shiba inu é de origem japonesa (e uma das mais antigas por lá). Essa raça ficou especialmente conhecida após tornar-se um *meme* de reação muito popular em 2013, dando origem e inspiração à criptomoeda **DOGECOIN**.
+The Shiba Inu dog is one of the most ancient dog races from Japanese origin. The race became specially recognized after becoming a *reaction meme* on 2013 and giving inspiration to the criptocoin **DOGECOIN**.
 
-A criptomoeda e alguns tweets do Elon Musk fizeram a raça ser facilmente reconhecida em qualquer lugar do mundo.
+The criptocoin and some Elon Musk tweets made the race become popular worldwide.
 
 ### 🌇 Dogecoin
 <img src="imgs/dogecoin.png" width="300">
@@ -41,19 +39,3 @@ A criptomoeda e alguns tweets do Elon Musk fizeram a raça ser facilmente reconh
 <img src="imgs/tweet1.jpg" width="300">
 
 <img src="imgs/tweet2.jpg" width="300">
-
-## 🗺 Contexto
-
-Toda imagem colorida, do ponto de vista computacional, nada mais é do que um conjunto de três matrizes: Vermelho, Verde e Azul (RGB vem de Red, Green e Blue). Cada uma dessas matriz traz a intensidade da respectiva cor para cada um dos pixels.
-
-<img src="imgs/matrix.png" width="300">
-
-Nessas matrizes,os valores vão de 0 a 255. 0 representa a ausência dessa cor e 255 a intensidade mais forte possível dela. Se tivermos um píxel puramente vermelho ele será representado pelos seguintes valores em cada matriz:
-
-- R = 255
-- G = 0
-- B = 0
-
-Na imagem acima, cada célula da matriz representa um píxel. Uma imagem é formada por vários pixels.
-
-Por outro lado, uma imagem **preta e branca** ou de **escala de cinza** apresenta apenas uma matriz com valores entre 0 e 255 ou entre 0 e 1. No mesmo conceito, quanto mais perto de 0, mais escuro é o píxel e quanto mais distante, mais claro.

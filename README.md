@@ -1,6 +1,6 @@
 # Data Visualization - Image Manipulation
 
-<div align="center"><img src="https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white">
+<div align="left"><img src="https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white">
 </div>
 
 ## 👨🏻‍🏫 Description
